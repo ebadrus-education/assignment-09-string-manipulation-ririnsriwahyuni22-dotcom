@@ -7,7 +7,6 @@ int main() {
 
     size_t posisi = kalimat.find("membaca");
 
-    // Mengecek apakah kata ditemukan
     if (posisi != string::npos) {
         cout << "\"membaca\" ditemukan di posisi ke-" << posisi << endl;
     } else {
